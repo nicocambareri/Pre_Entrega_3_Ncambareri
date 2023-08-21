@@ -1,0 +1,11 @@
+// Estilos de pagina CONTACTO
+.boton_contacto_enviar{
+    background-color: map-get($paleta_colores, "blanco" );
+    color: map-get($paleta_colores, "negro");
+    border: $bordes_uno map-get($paleta_colores, "negro");
+    &:hover{
+        background-color: map-get($paleta_colores, "blanco");
+        color: map-get($paleta_colores, "negro");
+        border: $bordes_uno map-get($paleta_colores, "verde_hover");
+    } 
+} 
