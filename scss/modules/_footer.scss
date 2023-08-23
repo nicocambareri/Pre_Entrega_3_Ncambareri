@@ -32,4 +32,8 @@
      }
  }
 
-
+.estilo_icono{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: map-get($paleta_colores, "verde_hover" );
+}

@@ -2,6 +2,18 @@ $vista: desktop;
 
 @if $vista == desktop {
     @media (max-width: 1000px) {
+        .alineador_textos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contenedor_img_espacios .h5_banio {
+            font-size: 3.5rem;
+            color: whitesmoke;
+            text-align: center;
+            justify-content: center;
+            text-shadow: 1px 4px 2px 1px black;
+          }
 
         .card{
          margin: 5px;
