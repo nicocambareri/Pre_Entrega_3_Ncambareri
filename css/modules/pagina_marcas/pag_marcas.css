@@ -1,10 +1,3 @@
-/* Error: Undefined variable.
- *   ,
- * 3 |     background-color: map-get($paleta_colores, "negro");
- *   |                               ^^^^^^^^^^^^^^^
- *   '
- *   scss\modules\pagina_marcas\pag_marcas.scss 3:31  root stylesheet */
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;

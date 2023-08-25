@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -57,59 +58,123 @@
 
         <!-- CARRUSEL-PRINCIPAL -->
 
-        <section class="seccion_carrusel_uno container-fluid col-6 ">
-            <div id="carousel_1" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+        <section class="seccion_carrusel_index container mb-3 col-6 ">
+            <div id="carousel_index" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/img_1.webp" class="d-flex w-100 img-thumbnail" alt="slider 1">
+                        <img src="./assets/img/1-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/img_2.webp" class="d-flex w-100 img-thumbnail" alt="slider 2">
+                        <img src="./assets/img/2-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/img_3.webp" class="d-flex w-100 img-thumbnail" alt="slider 3">
+                        <img src="./assets/img/3-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 3">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/img_4.webp" class="d-flex w-100 img-thumbnail" alt="slider 4">
+                        <img src="./assets/img/4-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 4">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_index" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_index" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
+       
+       
         <!-- IMAGENES PEQUEÑAS UNO -->
 
-        <section class="seccion_dos mt-3 d-flex align-intems-center justify-content-evenly">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/banio.webp" class="card-img-top" alt="imagen de baño">
+        <section class="seccion_dos mt-2 container" data-aos="zoom-out">
+            <div class="card contenedor_tarjetas">
+                <img src="./assets/img/banio.webp" class="card-img-top imagenes_pequeñas_index " alt="imagen de baño">
                 <div class="card-body contenedor_tarjeta_index">
                     <p class="card-text texto_cartas_index">Terminaciones finas , herrajes de primera calidad ,
-                        accesorios para todos los estilos , lo ultimo en baños</p>
+                        accesorios y tonalidades para todos los estilos , lo ultimo en baños y sanitarios</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/bar.webp" class="card-img-top" alt="imagen de bar">
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/bar.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de bar">
                 <div class="card-body contenedor_tarjeta_index">
                     <p class="card-text texto_cartas_index">Podes encotrar todos los accesorios terminaciones e ideas
-                        para tu bar o resto</p>
+                        para tu bar o resto , pisos , mobiliario , maderas estacionadas , texturas </p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cocina_1.webp" class="card-img-top" alt="imagen de cocina ">
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/cocina-1.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de cocina ">
                 <div class="card-body contenedor_tarjeta_index">
                     <p class="card-text texto_cartas_index">Con nuestras piedras y revestimientos de Dekton sumado a la
                         altisima calidad de nuestras placas , hacemos tu cocina soñada</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cocina_2.webp" class="card-img-top" alt="imagen de cocina ">
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/imgane_4_pequeña.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de cocina ">
+                <div class="card-body contenedor_tarjeta_index">
+                    <p class="card-text texto_cartas_index">Silestone ofrece una amplia variedad de piedras y
+                        revestimientos como tambien pisos simil madera y extensa carta de colores</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARRUSEL DOS  -->
+        <section class="seccion_carrusel_index_dos container ">
+            <div id="carousel_index_dos" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/5-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/6-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/7-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/8-imagen-1080.webp" class="d-flex img-thumbnail" alt="slider 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_index_dos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_index_dos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+
+
+        <section class="seccion_dos mt-2 container ">
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/banio.webp" class="card-img-top imagenes_pequeñas_index " alt="imagen de baño">
+                <div class="card-body contenedor_tarjeta_index">
+                    <p class="card-text texto_cartas_index">Terminaciones finas , herrajes de primera calidad ,
+                        accesorios y tonalidades para todos los estilos , lo ultimo en baños y sanitarios</p>
+                </div>
+            </div>
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/bar.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de bar">
+                <div class="card-body contenedor_tarjeta_index">
+                    <p class="card-text texto_cartas_index">Podes encotrar todos los accesorios terminaciones e ideas
+                        para tu bar o resto , pisos , mobiliario , maderas estacionadas , texturas </p>
+                </div>
+            </div>
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/cocina-1.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de cocina ">
+                <div class="card-body contenedor_tarjeta_index">
+                    <p class="card-text texto_cartas_index">Con nuestras piedras y revestimientos de Dekton sumado a la
+                        altisima calidad de nuestras placas , hacemos tu cocina soñada</p>
+                </div>
+            </div>
+            <div class="card contenedor_tarjetas" data-aos="zoom-out">
+                <img src="./assets/img/imgane_4_pequeña.webp" class="card-img-top imagenes_pequeñas_index" alt="imagen de cocina ">
                 <div class="card-body contenedor_tarjeta_index">
                     <p class="card-text texto_cartas_index">Celestone ofrece una amplia variedad de piedras y
                         revestimientos como tambien pisos simil madera y extensa carta de colores</p>
@@ -117,71 +182,7 @@
             </div>
         </section>
 
-        <!-- CARRUSEL DOS  -->
-        <section class="seccion_carrusel_uno container-fluid col-6  mt-3">
-            <div id="carousel_2" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/img/img_4.webp" class="d-flex w-100 img-thumbnail" alt="slider 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/img/img_3.webp" class="d-flex w-100 img-thumbnail" alt="slider 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/img/img_2.webp" class="d-flex w-100 img-thumbnail" alt="slider 3">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/img/img_1.webp" class="d-flex w-100 img-thumbnail" alt="slider 4">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel_2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-
-        <!-- IMAGENES PEQUEÑAS DOS  -->
-
-        <section class="seccion_tres mt-3 d-flex align-intems-center justify-content-evenly">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/banio.webp" class="card-img-top" alt="imagen pequeña de banio ">
-                <div class="card-body contenedor_tarjeta_index">
-                    <p class="card-text texto_cartas_index">Some quick example text to build on the card title and make
-                        up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/bar.webp" class="card-img-top" alt="imagen de bar pequeña">
-                <div class="card-body contenedor_tarjeta_index">
-                    <p class="card-text texto_cartas_index">Some quick example text to build on the card title and make
-                        up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cocina_1.webp" class="card-img-top" alt="imagen pequeña de cocina ">
-                <div class="card-body contenedor_tarjeta_index">
-                    <p class="card-text texto_cartas_index">Some quick example text to build on the card title and make
-                        up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cocina_2.webp" class="card-img-top" alt="imagen pequeña de cocina">
-                <div class="card-body contenedor_tarjeta_index">
-                    <p class="card-text texto_cartas_index">Some quick example text to build on the card title and make
-                        up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-        </section>
+       
     </main>
     <!-- FIN MAIN -->
 
@@ -249,6 +250,10 @@
 
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
